@@ -62,7 +62,7 @@
  
 
     <!-- synchronous css / inline css  -->
-    <link rel="stylesheet" href="/assets/css/global.css?8305-d718-b37a" />
+    <link rel="stylesheet" href="/assets/css/global.css?977a-42a8-dc48" />
 
     <!-- preloads -->
     <link
@@ -97,7 +97,7 @@
     
 
     <!-- defered js  -->
-    <script type="module" src="/assets/scripts/app.js?8305-d718-b37a" defer></script>
+    <script type="module" src="/assets/scripts/app.js?977a-42a8-dc48" defer></script>
 
     <!-- everything else: meta tags, icons, open graph etc.  -->
     <base href="/blog/post-with-all-the-markdown/" />
@@ -238,101 +238,7 @@
 </time>
 
 
-    <p>A lot of markdown packages are installed to help you write your posts. You can configure them in <code>config/plugins/markdown.js</code>.</p>
-<p>As of my personal preference, there are some presets. For example the automatic conversion of web pages to links (<a href="http://lenesaile.com" target="_blank" rel="noopener">lenesaile.com</a>) and the automatic addition of <code>target: '_blank'</code> and <code>rel: 'noreferrer noopener'</code> for external links (all links with the pattern<code>/^https?:/</code>).</p>
-<p>This is a small pitfall! Take care to not prefix your internal links with your domain, or else they will be treated ad external as well. To link internally use this pattern:</p>
-<pre class="language-plaintext"><code class="language-plaintext">An internal link to the [about page](/about/)</code></pre>
-<h2 id="h2-heading"><a class="heading-anchor" href="#h2-heading">h2 Heading</a></h2>
-<h3 id="h3-heading"><a class="heading-anchor" href="#h3-heading">h3 Heading</a></h3>
-<h4 id="h4-heading"><a class="heading-anchor" href="#h4-heading">h4 Heading</a></h4>
-<p>Muffin bonbon jujubes cheesecake chupa chups shortbread ice cream cotton candy cake. Jelly-o biscuit dessert danish dessert pastry tootsie roll lemon drops gingerbread. Cheesecake donut marzipan sweet roll icing muffin halvah. Dragée donut cake biscuit pie carrot cake sesame snaps jelly-o gummi bears.</p>
-<p>Soufflé topping shortbread lemon.</p>
-<h2 id="hr"><a class="heading-anchor" href="#hr">hr</a></h2>
-<hr>
-<h2 id="typographic-replacements"><a class="heading-anchor" href="#typographic-replacements">Typographic replacements</a></h2>
-<p><strong>The replacement converts this input:</strong></p>
-<pre class="language-plaintext"><code class="language-plaintext">(c) (C) (r) (R) (tm) (TM) (p) (P) +-<br>test.. test... test..... test?..... test!....<br>!!!!!! ???? ,, -- ---<br>"Smartypants, double quotes" and 'single quotes'</code></pre>
-<p><strong>To this:</strong></p>
-<p>© © ® ® ™ ™ (p) (P) ±<br>
-test… test… test… test?.. test!..<br>
-!!! ??? , – —<br>
-“Smartypants, double quotes” and ‘single quotes’</p>
-<h2 id="emphasis"><a class="heading-anchor" href="#emphasis">Emphasis</a></h2>
-<p><strong>This is bold text</strong><br>
-<em>This is italic text</em><br>
-<s>Strikethrough</s></p>
-<h2 id="blockquote"><a class="heading-anchor" href="#blockquote">Blockquote</a></h2>
-<blockquote>
-<p>rbread. Cheesecake donut marzipan sweet roll icing muffin halvah. Dragée donut cake biscuit pie carrot cake sesame snaps jelly-o gummi bears. Cotton candy cookie croissant fruitcake.</p>
-</blockquote>
-<h2 id="lists"><a class="heading-anchor" href="#lists">Lists</a></h2>
-<h3 id="unordered-lists"><a class="heading-anchor" href="#unordered-lists">Unordered lists</a></h3>
-<ul class="list">
-<li>Create a list by starting a line with <code>+</code>, <code>-</code>, or <code>*</code></li>
-<li>Sub-lists are made by indenting 2 spaces:</li>
-<li>Very simple!</li>
-</ul>
-<h3 id="ordered-lists"><a class="heading-anchor" href="#ordered-lists">Ordered lists</a></h3>
-<ol class="list">
-<li>Lorem ipsum dolor sit amet</li>
-<li>Consectetur adipiscing elit</li>
-<li>Integer molestie lorem at massa</li>
-</ol>
-<h2 id="code"><a class="heading-anchor" href="#code">Code</a></h2>
-<p>Syntax highlighting</p>
-<pre class="language-js"><code class="language-js"><span class="token keyword">var</span> <span class="token function-variable function">foo</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">bar</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>  <span class="token keyword">return</span> bar<span class="token operator">++</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span><span class="token punctuation">;</span><br><br>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token function">foo</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
-<h2 id="tables"><a class="heading-anchor" href="#tables">Tables</a></h2>
-<table>
-<thead>
-<tr>
-<th>Option</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>data</td>
-<td>path to data files to supply the data that will be passed into templates.</td>
-</tr>
-<tr>
-<td>engine</td>
-<td>engine to be used for processing templates. Handlebars is the default.</td>
-</tr>
-<tr>
-<td>ext</td>
-<td>extension to be used for dest files.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="links"><a class="heading-anchor" href="#links">Links</a></h2>
-<p><code>rel=&quot;noreferrer noopener&quot;</code> and <code>target=&quot;_blank&quot;</code> is added automatically to external links. So is an indicator icon, see global-styles.css<br>
-<a href="http://dev.nodeca.com" target="_blank" rel="noopener">link text</a><br>
-<a href="http://nodeca.github.io/pica/demo/" title="title text!" target="_blank" rel="noopener">link with title</a></p>
-<p>Autoconverted link <a href="https://github.com/nodeca/pica" target="_blank" rel="noopener">https://github.com/nodeca/pica</a> (enabled via linkify)</p>
-<h3 id="emojis"><a class="heading-anchor" href="#emojis">Emojis</a></h3>
-<p>Classic markup: 😉 :crush: 😢 :tear: 😆 😋<br>
-Shortcuts (emoticons): 😃 😦 😎 😉</p>
-<h3 id="mark"><a class="heading-anchor" href="#mark">mark</a></h3>
-<p><mark>Marked text</mark></p>
-<h3 id="footnotes"><a class="heading-anchor" href="#footnotes">Footnotes</a></h3>
-<p>Footnote 1 link<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>.<br>
-Footnote 2 link<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>.<br>
-Inline footnote<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup> definition.<br>
-Duplicated footnote reference<sup class="footnote-ref"><a href="#fn2" id="fnref2:1">[2:1]</a></sup>.</p>
-<p>*[HTML]: Hyper Text Markup Language</p>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>Footnote <strong>can have markup</strong><br>
-and multiple paragraphs. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p>Footnote text. <a href="#fnref2" class="footnote-backref">↩︎</a> <a href="#fnref2:1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn3" class="footnote-item"><p>Text of inline footnote <a href="#fnref3" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-
+    
   </div>
 </article>
 </main>
