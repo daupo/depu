@@ -24,7 +24,7 @@
         "@type": "WebSite",
         "@id": "http://localhost:8080#website",
         "url": "http://localhost:8080",
-        "name": "Eleventy Excellent",
+        "name": "豆坡德扑",
         "description": "Eleventy starter based on the workflow suggested by buildexcellentwebsit.es.",
         "inLanguage": "en_EN"
       }
@@ -34,7 +34,7 @@
  
 
     <!-- synchronous css / inline css  -->
-    <link rel="stylesheet" href="/assets/css/global.css?246a-922b-60d0" />
+    <link rel="stylesheet" href="/assets/css/global.css?3683-2ee8-9f70" />
 
     <!-- preloads -->
     <link
@@ -63,7 +63,7 @@
     
 
     <!-- defered js  -->
-    <script type="module" src="/assets/scripts/app.js?246a-922b-60d0" defer></script>
+    <script type="module" src="/assets/scripts/app.js?3683-2ee8-9f70" defer></script>
 
     <!-- everything else: meta tags, icons, open graph etc.  -->
     <base href="/" />
@@ -106,7 +106,7 @@
   property="og:description"
   content="Eleventy starter using modern CSS, fluid type, fluid spacing, flexible layout and progressive enhancement."
 />
-<meta property="og:site_name" content="Eleventy Excellent" />
+<meta property="og:site_name" content="豆坡德扑" />
 <meta property="og:locale" content="en_EN" />
 <meta property="article:author" content="Lene Saile" />
 
@@ -147,29 +147,11 @@
         />
       </svg>
 
-      Eleventy Excellent
+      豆坡德扑
     </a>
 
     <nav id="mainnav" class="navbar" aria-label="Main">
   <ul>
-    
-    <li>
-      <a
-        class="nav"
-        href="/about/"
-        
-        >About</a
-      >
-    </li>
-    
-    <li>
-      <a
-        class="nav"
-        href="/blog/"
-        
-        >Blog</a
-      >
-    </li>
     
   </ul>
 </nav>
@@ -217,17 +199,21 @@
 <article class="region">
   <div class="wrapper flow prose">
     <h2 id="关于"><a class="heading-anchor" href="#关于">关于</a></h2>
-<p>豆坡德扑是德州扑克的一个变种，仅限于家族内部聚会，增加节日气氛，和赌博无关，希望大家珍惜生命，远离赌博。</p>
+<p>豆坡德扑是一种扑克游戏，是德州扑克的一个变种，仅限于在家族内部聚会使用，增加节日气氛，和赌博无关，希望大家珍惜生命，远离赌博。</p>
+<h2 id="筹码"><a class="heading-anchor" href="#筹码">筹码</a></h2>
+<p>豆坡扑克使用一种叫做 <code>DP</code> 的游戏币当作筹码</p>
 <h2 id="流程"><a class="heading-anchor" href="#流程">流程</a></h2>
 <ol class="list">
-<li>底池建立：每位玩家在游戏开始时贡献一定数量的筹码，组成奖金池。</li>
+<li>底池建立：每位玩家在游戏开始时贡献 <code>1 DP</code>，组成奖金池。</li>
 <li>发牌：每位玩家会在游戏开始时收到两张私有的手牌。</li>
-<li>盲注：大盲注和小盲注的玩家在游戏开始时需要先下注。</li>
-<li>叫牌：玩家从庄家开始轮流进行叫牌，每位玩家可以选择跟注、加注或弃牌。</li>
-<li>翻牌：在桌面上放置三张公共牌，玩家可以利用这三张牌和自己的两张手牌来组合最佳的五张牌。</li>
+<li>小盲注：庄家左手边的玩家下小盲注，金额为底池的一半，向下取整。</li>
+<li>大盲注：庄家左手边第二个玩家下大盲注，金额为底池大小。</li>
+<li>发底牌： 庄家给每个玩家发 2 张底牌</li>
+<li>翻牌前叫牌：从大盲注后的第一个选手开始<strong>顺时针</strong>轮流表态，每位玩家可以选择跟注、加注或弃牌。</li>
+<li>翻牌：在桌面上放置三张公共牌，玩家可以利用这三张牌和自己的两张手牌来组合最佳的五张牌。从小盲注开始表态。</li>
 <li>转牌：在桌面上放置第四张公共牌，玩家可以利用这四张牌和自己的两张手牌来组合最佳的五张牌。</li>
 <li>河牌：在桌面上放置第五张公共牌，玩家可以利用这五张牌和自己的两张手牌来组合最佳的五张牌。</li>
-<li>摊牌：玩家轮流展示自己的手牌，并由庄家或是其他玩家来确定谁是最后赢家。</li>
+<li>摊牌：从庄家左手边第一个玩家开始，轮流展示自己的手牌，确定谁是最后赢家。</li>
 <li>分配奖金：最终赢家将获得底池中的所有筹码。</li>
 </ol>
 
@@ -236,7 +222,7 @@
 
 <article class="region" style="--region-space-top: var(--space-s)">
   <div class="wrapper flow prose">
-    <h2>其他</h2>
+    <h2>进阶</h2>
     <!-- blog intro text is optional. -->
     
   </div>
@@ -247,13 +233,13 @@
 
     <li class="card flow clickable-card overflow-hidden">
       <h3>
-        <a href="/blog/post-with-all-the-markdown/">Post with all the markdown</a>
+        <a href="/advanced/术语/">术语</a>
       </h3>
-       <time datetime="2022-11-02T00:00:00.000Z">
-  November 2, 2022
+       <time datetime="2023-01-26T00:00:00.000Z">
+  January 26, 2023
 </time>
 
-      <p>A lot of markdown packages are installed to help you write your posts. All presets are personal preference.</p>
+      <p></p>
     </li>
 
     
@@ -269,7 +255,7 @@
     <div class="site-foot__inner">
       <nav id="footernav" class="site-foot__inner" aria-label="Footer">
 
-        &copy; 2023 <a href="/"  aria-current="page" >Eleventy Excellent <small>v1.2.4</small> </a>
+        &copy; 2023 <a href="/"  aria-current="page" >豆坡德扑 <small>v1.2.4</small> </a>
 
         
 

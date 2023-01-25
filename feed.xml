@@ -5,21 +5,33 @@
   <link href="http://localhost:8080/feed.xml" rel="self" />
   <link href="http://localhost:8080/" />
   
-  <updated>2022-11-02T00:00:00Z</updated>
+  <updated>2023-01-26T00:00:00Z</updated>
   <id>http://localhost:8080/</id>
   <author>
     <name>Lene Saile</name>
     <email></email>
   </author>
   <entry>
-    <title>Post with all the markdown</title>
-    <link href="http://localhost:8080/blog/post-with-all-the-markdown/" />
-    <updated>2022-11-02T00:00:00Z</updated>
-    <id>http://localhost:8080/blog/post-with-all-the-markdown/</id>
+    <title>术语</title>
+    <link href="http://localhost:8080/advanced/%E6%9C%AF%E8%AF%AD/" />
+    <updated>2023-01-26T00:00:00Z</updated>
+    <id>http://localhost:8080/advanced/%E6%9C%AF%E8%AF%AD/</id>
     <content
       xml:lang=""
       type="html"
-      ></content
+      >&lt;h2 id=&quot;牌局操作&quot;&gt;&lt;a class=&quot;heading-anchor&quot; href=&quot;http://localhost:8080/advanced/%E6%9C%AF%E8%AF%AD/#%E7%89%8C%E5%B1%80%E6%93%8D%E4%BD%9C&quot;&gt;牌局操作:&lt;/a&gt;&lt;/h2&gt;
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;下注（bet）：用筹码下注,作为注额&lt;/li&gt;
+&lt;li&gt;跟注（call）：与前一位押下相同注额&lt;/li&gt;
+&lt;li&gt;弃牌（fold）：放弃继续游戏的机会&lt;/li&gt;
+&lt;li&gt;过牌（check）：不需要跟注的情况下,把下注机会留给下一位&lt;/li&gt;
+&lt;li&gt;加注（raise）：提高现有的注额&lt;/li&gt;
+&lt;li&gt;再加注（Re-raise）：在其他人加注后,再进行加注&lt;/li&gt;
+&lt;li&gt;全下（All in）：将所有筹码作为注额&lt;/li&gt;
+&lt;li&gt;3bet：翻牌前面对对手的加注后进行再次加注,对3bet再次加注就是4bet,以此类推&lt;/li&gt;
+&lt;li&gt;c bet:翻牌后,翻牌前做raise的人持续加注。&lt;/li&gt;
+&lt;/ul&gt;
+</content
     >
   </entry>
 </feed>
