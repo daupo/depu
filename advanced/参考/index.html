@@ -11,7 +11,7 @@
     <!-- title -->
     <title>
       
-      Blog
+      参考
       
     </title>
 
@@ -32,9 +32,37 @@
   }
 </script>
  
+    <!-- include blogpost schema  --><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": {
+      "@type": "WebPage"
+    },
+    "isPartOf": {
+      "@id": "http://localhost:8080#website"
+    },
+    "@id": "",
+    "headline": "参考",
+    "description": "Eleventy starter based on the workflow suggested by buildexcellentwebsit.es.",
+    "image": "http://localhost:8080/assets/images/opengraph-default.jpg",
+    "inLanguage": "en_EN",
+    "publisher": {
+      "@type": "Person",
+      "name": "Lene Saile",
+      "url": "http://localhost:8080"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Lene Saile"
+    },
+    "datePublished": "2023-01-27T00:00:00.000Z"
+  }
+</script>
+ 
 
     <!-- synchronous css / inline css  -->
-    <link rel="stylesheet" href="/assets/css/global.css?0ee8-5b09-6c9d" />
+    <link rel="stylesheet" href="/assets/css/global.css?7668-93af-d582" />
 
     <!-- preloads -->
     <link
@@ -60,19 +88,25 @@
     />
 
     <!-- preloads in page data -->
+    <!-- prettier-ignore -->
+    <link rel="preload"
+            href="/assets/fonts/robotomono/robotomono-variablefont_wght-webfont.woff2"
+            as="font"
+            type=font/woff2
+            crossorigin />
     
 
     <!-- defered js  -->
-    <script type="module" src="/assets/scripts/app.js?0ee8-5b09-6c9d" defer></script>
+    <script type="module" src="/assets/scripts/app.js?7668-93af-d582" defer></script>
 
     <!-- everything else: meta tags, icons, open graph etc.  -->
-    <base href="/blog/" />
+    <base href="/advanced/参考/" />
 
 <meta
   name="description"
   content="
   
-  All blog posts can be found here
+  Eleventy starter based on the workflow suggested by buildexcellentwebsit.es.
   
   "
 />
@@ -84,7 +118,7 @@
 <!-- Disable automatic detection and formatting of possible phone numbers -->
 <meta name="format-detection" content="telephone=no" />
 <!-- Helps prevent duplicate content issues -->
-<link rel="canonical" href="http://localhost:8080/blog/" />
+<link rel="canonical" href="http://localhost:8080/advanced/参考/" />
 
 <!-- Links to information about the author(s) of the document -->
 <link rel="author" href="humans.txt" />
@@ -92,11 +126,11 @@
 
 
 <!-- Open Graph meta  -->
-<meta property="og:url" content="http://localhost:8080/blog/" />
+<meta property="og:url" content="http://localhost:8080/advanced/参考/" />
 <meta property="og:type" content="website" />
 <meta
   property="og:title"
-  content="Blog"
+  content="参考"
 />
 <meta
   property="og:image"
@@ -104,7 +138,7 @@
 />
 <meta
   property="og:description"
-  content="All blog posts can be found here"
+  content="Eleventy starter based on the workflow suggested by buildexcellentwebsit.es."
 />
 <meta property="og:site_name" content="豆坡德扑" />
 <meta property="og:locale" content="en_EN" />
@@ -157,58 +191,25 @@
 
     <!-- content slot -->
     <main id="main" class="flow">
-<header class="section spot-color-secondary">
-  <div class="section__inner region">
-    <div class="wrapper flow">
-      <section class="prose text-center">
-        <h1 class="fade-in">Blog</h1>
-      </section>
-    </div>
-  </div>
+<article class="region blog">
+  <div class="wrapper flow prose">
+    <h1 class="gradient-text">参考</h1>
 
-  <svg
-  class="seperator"
-  preserveAspectRatio="none"
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 1440 320"
->
-  <path
-    d="M0,320L48,32L96,32L144,224L192,256L240,0L288,192L336,288L384,224L432,128L480,256L528,32L576,96L624,64L672,64L720,160L768,32L816,192L864,128L912,128L960,32L1008,224L1056,160L1104,0L1152,64L1200,256L1248,64L1296,224L1344,160L1392,96L1440,32L1440,0L1392,0L1344,0L1296,0L1248,0L1200,0L1152,0L1104,0L1056,0L1008,0L960,0L912,0L864,0L816,0L768,0L720,0L672,0L624,0L576,0L528,0L480,0L432,0L384,0L336,0L288,0L240,0L192,0L144,0L96,0L48,0L0,0Z"
-  ></path>
-</svg>
-
-</header>
-
-<article class="wrapper region">
-  <ul class="grid mt-l-xl" role="list" data-rows="masonry" data-layout="50-50">
-     
-
-    <li class="card flow clickable-card overflow-hidden">
-      <h2>
-        <a href="/advanced/参考/">参考</a>
-      </h2>
-       <time datetime="2023-01-27T00:00:00.000Z">
+     <time datetime="2023-01-27T00:00:00.000Z">
   January 27, 2023
 </time>
 
-      <p></p>
-    </li>
 
-    
+    <h2 id="书"><a class="heading-anchor" href="#书">书</a></h2>
+<ul class="list">
+<li><a href="">sdfsdfs</a></li>
+</ul>
+<h2 id="视频"><a class="heading-anchor" href="#视频">视频</a></h2>
+<ul class="list">
+<li></li>
+</ul>
 
-    <li class="card flow clickable-card overflow-hidden">
-      <h2>
-        <a href="/advanced/术语/">术语</a>
-      </h2>
-       <time datetime="2023-01-26T00:00:00.000Z">
-  January 26, 2023
-</time>
-
-      <p></p>
-    </li>
-
-    
-  </ul>
+  </div>
 </article>
 </main>
 
